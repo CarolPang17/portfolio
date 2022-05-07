@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -10,10 +11,6 @@ function App() {
       name: 'portfolio',
       description: 'Welcome checkout the app that i created!',
     },
-
-
-    // { name: 'food', description: 'Delicious delicacies' },
-    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -39,6 +36,7 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <Footer />
     </div>
   );
 }

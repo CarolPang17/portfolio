@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: #89CFF0 ;
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
