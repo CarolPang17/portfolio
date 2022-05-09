@@ -289,3 +289,25 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  background: wheat;
+}
+
+li {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  color: black;
+}
