@@ -7,34 +7,39 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'MyTeam',
       category: 'portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      github:
+      "https://github.com/CarolPang17/jest-test-and-Inquirer-Team-Profile-Generator",
+      url: "https://carolpang17.github.io/jest-test-and-Inquirer-Team-Profile-Generator/sample.html"
     },
     {
-      name: 'Grocery booth',
+      name: 'MVC',
       category: 'portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      github:
+      "https://github.com/CarolPang17/mvc-tech-blog",
+      url: "https://warm-escarpment-73201.herokuapp.com/"
     },
     {
-      name: 'Building exterior',
+      name: 'Commute',
       category: 'portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      github:
+      "https://github.com/ngranzow/gas-guzzlers",
+      url: "https://mysterious-plateau-73573.herokuapp.com/"
     },
     {
-      name: 'Restaurant table',
+      name: 'Fridge',
       category: 'portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      github:
+      "https://github.com/noellecrow/fridgefoods",
+      url: "https://noellecrow.github.io/fridgefoods/"
     },
     {
-      name: 'Cafe interior',
+      name: 'NoteTaker',
       category: 'portfolio',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      github:
+      "https://github.com/CarolPang17/Express-Note-Taker",
+      url: "https://quiet-dusk-16447.herokuapp.com/"
     }
   ]);
 
