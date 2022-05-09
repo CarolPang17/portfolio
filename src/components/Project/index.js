@@ -1,12 +1,12 @@
 import React from "react";
 
-const Modal = ({ onClose, currentPhoto,  }) => {
+const Project = ({ onClose, currentPhoto,  }) => {
   const { name, github, url, category, index } = currentPhoto;
 
   return (
-    <div className="modalBackdrop">
-      <div className="modalContainer">
-        <h3 className="modalTitle">{name} </h3>
+    <div className="projectBackdrop">
+      <div className="projectContainer">
+        <h3 className="projectTitle">{name} </h3>
         <img
           src={require(`../../assets/small/${category}/${index}.jpg`).default}
           alt="current category"
@@ -35,4 +35,4 @@ const Modal = ({ onClose, currentPhoto,  }) => {
   );
 };
 
-export default Modal;
+export default Project;
